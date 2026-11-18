@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Token cost",
+    "description": "Shows token cost in two places: the session total beside the composer statistics pills, and the per-turn cost in each assistant message's action row. Both open a click-through details panel listing each model/period group with its four token buckets, amounts and unit rates. A Host session projection named tokenCost files every billed request under its own provider/model and Beijing-time peak/off-peak period. Rates are checked against DeepSeek's official CNY pricing page once a day: the page is parsed, then validated for both models, all six rates, off-peak being half of peak, plausible ranges and the right currency; anything that fails keeps the previous table. The fetched table is cached locally, the panel shows its source and capture time, and the built-in table is only a fallback. This sends one GET to api-docs.deepseek.com and no local data, session content or credentials. Turning the plugin off removes both readings and the projection. Known limits: public holidays are not detected, usage that never named a model is priced as deepseek-flash, and new rates apply on the next page load."
+  }
+}

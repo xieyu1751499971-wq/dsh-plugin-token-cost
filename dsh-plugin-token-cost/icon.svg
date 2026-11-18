@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Token cost">
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="#245c73"/>
+  <path d="M21 20 L32 33 L43 20" fill="none" stroke="#f2f7f9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M22.5 31 H41.5 M22.5 39 H41.5" stroke="#f2f7f9" stroke-width="4" stroke-linecap="round"/>
+  <path d="M32 33 V47" stroke="#7fd3e8" stroke-width="4" stroke-linecap="round"/>
+</svg>
