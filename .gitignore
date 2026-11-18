@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Local experiment output
+*.log
+pricing.cache.json
+.dsh-token-cost-*
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
